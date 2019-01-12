@@ -42,7 +42,7 @@ DESTROY ROUTE | /blogs/:id   |    DELETE request |  Delete a particular blog, th
 
 * Colt Steele's Bootcamp course
 
-
+-------------------------------------------------------------------------------------------------------------------
 ## Basics of RESTful Routing
 
 * Representational State Transfer (REST) is an Architectural style that maps between HTTP routes and CRUD operations.
