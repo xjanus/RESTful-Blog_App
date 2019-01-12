@@ -43,6 +43,12 @@ DESTROY ROUTE | /blogs/:id   |    DELETE request |  Delete a particular blog, th
 * Colt Steele's Bootcamp course
 
 
+## Basics of RESTful Routing
+
+* Representational State Transfer (REST) is an Architectural style that maps between HTTP routes and CRUD operations.
+* RESTful web services are web services that conform to the REST architectural style. 
+* It provides interoperability between computer systems on the Internet.
+
 ## Steps to build the RESTful routing Blog App
 
 # Blog Index
@@ -83,11 +89,3 @@ DESTROY ROUTE | /blogs/:id   |    DELETE request |  Delete a particular blog, th
 * Sanitize blog body
 * Style Index
 * Update REST table
-
-# More Information - Basics of RESTful Routing
-
-## Introduction
-
-* Representational State Transfer (REST) is an Architectural style that maps between HTTP routes and CRUD operations.
-* RESTful web services are web services that conform to the REST architectural style. 
-* It provides interoperability between computer systems on the Internet.
