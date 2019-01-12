@@ -5,7 +5,7 @@ Perform CRUD (Create, Read, Update and Delete) operations on any blog post. Crea
 # RESTful ROUTES
 
 name | path/url | http verb | description | Mongoose Method
---------------------------------------------------------
+-----|----------|-----------|-------------|--------------
 INDEX ROUTE |  /blogs        |   GET request  |   display a list of all blogs        |                  Blog.find()
 NEW ROUTE  |   /blogs/new    |   GET request  |   displays form to add a NEW blog    |                  N/A
 CREATE ROUTE | /blogs        |   POST request |   Add new dog(resource) to DB and redirect somewhere |  Blog.create()
