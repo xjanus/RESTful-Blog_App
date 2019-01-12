@@ -1,0 +1,17 @@
+/*
+i .icon {}
+Selects all elements with the class .icon that are descendants of a div/element i 
+*/
+
+/*Selects all divs/elements that have the class "icon" */
+i.icon{
+    font-size: 2em;
+}
+
+.container.main{
+    margin-top: 7em;
+}
+
+#delete{
+    display: inline;
+}
