@@ -6,13 +6,13 @@ Perform CRUD (Create, Read, Update and Delete) operations on any blog post. Crea
 
 name | path/url | http verb | description | Mongoose Method
 --------------------------------------------------------
-* INDEX ROUTE |  /blogs        |   GET request  |   display a list of all blogs        |                  Blog.find()
-* NEW ROUTE  |   /blogs/new    |   GET request  |   displays form to add a NEW blog    |                  N/A
-* CREATE ROUTE | /blogs        |   POST request |   Add new dog(resource) to DB and redirect somewhere |  Blog.create()
-* SHOW ROUTE  |  /blogs/:id    |   GET request  |   Shows detailed information about one blog(resource) |  Blog.findByID()
-* EDIT ROUTE  |  /blogs/:id/edit | GET request  |   Show edit form for one blog(resource)            |    Blog.findByID()
-* UPDATE ROUTE | /blogs/:id    |   PUT request  |   Update a particular blog, then redirect somewhere |   Blog.findByIdAndUpdate()
-* DESTROY ROUTE | /blogs/:id   |    DELETE request |  Delete a particular blog, then redirect somewhere  |  Blog.findByIdAndRemove()
+INDEX ROUTE |  /blogs        |   GET request  |   display a list of all blogs        |                  Blog.find()
+NEW ROUTE  |   /blogs/new    |   GET request  |   displays form to add a NEW blog    |                  N/A
+CREATE ROUTE | /blogs        |   POST request |   Add new dog(resource) to DB and redirect somewhere |  Blog.create()
+SHOW ROUTE  |  /blogs/:id    |   GET request  |   Shows detailed information about one blog(resource) |  Blog.findByID()
+EDIT ROUTE  |  /blogs/:id/edit | GET request  |   Show edit form for one blog(resource)            |    Blog.findByID()
+UPDATE ROUTE | /blogs/:id    |   PUT request  |   Update a particular blog, then redirect somewhere |   Blog.findByIdAndUpdate()
+DESTROY ROUTE | /blogs/:id   |    DELETE request |  Delete a particular blog, then redirect somewhere  |  Blog.findByIdAndRemove()
 
 ## Getting Started and Execution
 
